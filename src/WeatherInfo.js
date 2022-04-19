@@ -16,15 +16,15 @@ export default function WeatherInfo(props) {
           {props.data.description}
         </li>
       </ul>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex clearfix justify-content-center">
         <div className="row">
           <div className="col-6">
-            <div className="clearfix">
+            <div className="d-flex clearfix">
               <div className="float-left">
                 <WeatherIcon
                   code={props.data.icon}
                   alt={props.data.description}
-                  size={52}
+                  size={65}
                 />
               </div>
 
